@@ -1,0 +1,45 @@
+@import 'vars';
+@import 'mixins';
+@include main;
+.meni{
+    width: 100%;
+    height: 3.5em;
+    background: $hif;
+    @include clearfix;
+    
+
+}
+nav{
+    width: 93%;
+    height: 100%;
+    float: left;
+    text-align: right;
+  
+    ul{
+        list-style-type: none;
+        margin: 0 2em;
+        li{
+            display: inline-block;
+            padding: 1.5em 2em 0.5em 2em  ;
+            a{
+                color: $pozadinaSekcija;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline; 
+                }
+            }
+
+        }
+        
+    }
+
+}
+.hamb{
+    float: right;
+    margin: 0 auto;
+    width: 7%;
+    height: 100%;
+    background: $crvena;
+    background-size: cover;
+    padding: 0.3em 1em
+}
