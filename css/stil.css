@@ -73,44 +73,73 @@ nav {
   .pozadina h3 {
     padding-bottom: 1em; }
 
-/*
-
-
-.intro {
-	height: 50em;
-	background: url('../slike/intro.jpg');
-	background-size: cover;
-
-	h1, h2 {
-		color: #fff;
-		font-weight: normal;
-		background: rgba(55, 66, 73, 0.6);
-		text-align: center;
-	}
-
-	h1 {
-		margin-top: 40%;
-		font-size: 4em;
-	}
-}
+.dugmici {
+  text-align: right;
+  margin: 2em 15%; }
 
 .button {
-	padding: 1em 2em;
-	border-radius: 60px;
-	color: $main_text_color;
-	border: 1px solid $grey_light;
-	margin: 0 1em;
-	cursor: pointer;
+  padding: 1em 1.3em;
+  border-radius: 60px;
+  color: #797979;
+  border: 1px solid #cfd1d3;
+  margin: 0 1em;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 600; }
+  .button:hover {
+    background: #cfd1d3;
+    color: #fff; }
 
-	&:hover {
-		background: $grey_light;
-		color: #fff;
-	}
-}
+.krugovi {
+  width: 100%;
+  clear: both;
+  background: #f3f7f9;
+  text-align: center;
+  padding: 2em;
+  color: black; }
+  .krugovi:before, .krugovi:after {
+    content: "";
+    display: table; }
+  .krugovi:after {
+    clear: both; }
 
-.filter {
-	text-align: right;
-}
-*/
+.slika {
+  height: 10em; }
+  .slika:before, .slika:after {
+    content: "";
+    display: table; }
+  .slika:after {
+    clear: both; }
+  .slika img {
+    width: 10em;
+    background: black;
+    border-radius: 50%;
+    background-size: cover;
+    opacity: 0.7;
+    cursor: pointer; }
+
+.nas {
+  display: none;
+  padding: 5em 2em 0 2em; }
+  .nas h3 {
+    text-transform: uppercase;
+    font-weight: 600; }
+  .nas h5 {
+    color: #f38181; }
+
+.slika:hover .nas {
+  display: unset; }
+.slika:hover img {
+  opacity: 1; }
+
+.komp, .ruke {
+  padding-left: 28em; }
+  .komp img, .komp .nas, .ruke img, .ruke .nas {
+    float: left; }
+
+.pare {
+  padding-right: 30em; }
+  .pare img, .pare .nas {
+    float: right; }
 
 /*# sourceMappingURL=stil.css.map */
