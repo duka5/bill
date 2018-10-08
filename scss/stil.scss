@@ -157,6 +157,118 @@ nav{
 
 }
 
+.mapa, .tabela {
+	h2 {
+		
+		color: $hif;
+		text-align: center;
+        text-transform: uppercase;
+        font-weight: 900;
+		margin: 1.5em;
+	}
+}
+
+.tabela {
+   
+	color: $hif;
+    text-align: center;
+    
+
+	.pricingTable {
+		width: 45%;
+		margin: 3em auto;
+		border-collapse: collapse;
+
+		th, td {
+			padding: .5em;
+		}
+
+		.orange {
+			background: $crvena;
+			color: #fff;
+		}
+
+		.darkCol {
+			background: $hif;
+			color: #fff;
+			font-weight: normal;
+		}
+
+		thead {
+			.darkCol {
+				border-right: 1px solid $tekstBoja;
+			}
+		}
+
+		tbody {
+			td {
+				border: 1px solid $tekstBoja;
+			}
+		}
+	}
+}
+    .pricingButton { display: none; }
+.mapa {
+    @include clearfix;
+    background: $pozadinaSekcija;
+    padding:3em 17%;
+    color:$hif;
+    
+    .mapHolder {
+        float: left;
+        margin: 1em;
+        width: 30%;
+    
+        iframe {
+            width: 100%;
+        }
+    }
+    
+    form {
+        width: 55%;
+        margin: 1em;
+        float: right;
+        padding: 1em;
+        background: $crvena;
+    
+        .contactInput {
+            float: left;
+            padding: .5em;
+            color: $hif;
+            border: none;
+            margin: 1em;
+            }
+    
+        select {
+            width: 20%;
+        }
+    
+        .contactInput[type="text"] {
+            float: right;
+            width: 70%;
+        }
+    
+        .contactInput[type="email"] {
+            width: 96%;
+        }
+    
+        textarea.contactInput {
+             width: 96%;
+        }
+    }
+ }
+    
+footer {
+    @include clearfix;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    background: $hif;
+    color: #fff;
+    span { color: $crvena; }
+}
+
+
 
 
 

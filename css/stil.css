@@ -142,4 +142,86 @@ nav {
   .pare img, .pare .nas {
     float: right; }
 
+.mapa h2, .tabela h2 {
+  color: #374249;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 1.5em; }
+
+.tabela {
+  color: #374249;
+  text-align: center; }
+  .tabela .pricingTable {
+    width: 45%;
+    margin: 3em auto;
+    border-collapse: collapse; }
+    .tabela .pricingTable th, .tabela .pricingTable td {
+      padding: .5em; }
+    .tabela .pricingTable .orange {
+      background: #f38181;
+      color: #fff; }
+    .tabela .pricingTable .darkCol {
+      background: #374249;
+      color: #fff;
+      font-weight: normal; }
+    .tabela .pricingTable thead .darkCol {
+      border-right: 1px solid #797979; }
+    .tabela .pricingTable tbody td {
+      border: 1px solid #797979; }
+
+.pricingButton {
+  display: none; }
+
+.mapa {
+  background: #f3f7f9;
+  padding: 3em 17%;
+  color: #374249; }
+  .mapa:before, .mapa:after {
+    content: "";
+    display: table; }
+  .mapa:after {
+    clear: both; }
+  .mapa .mapHolder {
+    float: left;
+    margin: 1em;
+    width: 30%; }
+    .mapa .mapHolder iframe {
+      width: 100%; }
+  .mapa form {
+    width: 55%;
+    margin: 1em;
+    float: right;
+    padding: 1em;
+    background: #f38181; }
+    .mapa form .contactInput {
+      float: left;
+      padding: .5em;
+      color: #374249;
+      border: none;
+      margin: 1em; }
+    .mapa form select {
+      width: 20%; }
+    .mapa form .contactInput[type="text"] {
+      float: right;
+      width: 70%; }
+    .mapa form .contactInput[type="email"] {
+      width: 96%; }
+    .mapa form textarea.contactInput {
+      width: 96%; }
+
+footer {
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+  background: #374249;
+  color: #fff; }
+  footer:before, footer:after {
+    content: "";
+    display: table; }
+  footer:after {
+    clear: both; }
+  footer span {
+    color: #f38181; }
+
 /*# sourceMappingURL=stil.css.map */
